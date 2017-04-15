@@ -18,7 +18,7 @@ docker-compose run web mix phoenix.new . --app app
 
 You will be prompted to overwrite ```config/dev.exs``` and ```config/test.exs``` as well as installing dependencies.
 Respond Yes (Y) to all and then overwrite the database config with the configs that were included in the seed config files.
-This should result in a newly created phoenix app.
+This should result in a newly created phoenix app:
 
 ![](doc/successfully-created-phoenix-app.png "Successfully created project!")
 
