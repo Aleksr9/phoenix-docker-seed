@@ -1,0 +1,8 @@
+# Configure your database
+config :app, App.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  username: "postgres",
+  password: "postgres",
+  database: "app_dev",
+  hostname: "db",
+  pool_size: 10
