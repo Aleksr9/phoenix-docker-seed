@@ -20,7 +20,7 @@ You will be prompted to overwrite ```config/dev.exs``` and ```config/test.exs```
 Respond Yes (Y) to all and then overwrite the database config with the configs that were included in the seed config files.
 This should result in a newly created phoenix app.
 
-<img src="doc/successfully-created-phoenix-app.png" width="720">
+![](doc/successfully-created-phoenix-app.png "Successfully created project!")
 
 ```
 # Manually configure your database in config/dev.exs if needed and run:
